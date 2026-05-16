@@ -12,7 +12,7 @@ const clearSession = () => { try { localStorage.removeItem(LS_KEY); } catch {} }
 // ─── Spotify ──────────────────────────────────────────────────────────────────
 // Uses Spotify Web Playback SDK + Authorization Code flow
 // Client ID should be set in env or hardcoded for demo
-const SPOTIFY_CLIENT_ID = "YOUR_SPOTIFY_CLIENT_ID"; // <-- vervang met jouw Spotify Client ID
+const SPOTIFY_CLIENT_ID = "88379a2394c440f3bb25a8312e7df8d2"; // <-- vervang met jouw Spotify Client ID
 const SPOTIFY_REDIRECT = window.location.origin + "/callback";
 const SPOTIFY_SCOPES = "streaming user-read-email user-read-private user-modify-playback-state user-read-playback-state";
 
